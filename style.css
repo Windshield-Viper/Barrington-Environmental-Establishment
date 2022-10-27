@@ -1,0 +1,196 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Montserrat:wght@600&family=Questrial&family=Quicksand:wght@300;400&family=Source+Code+Pro&display=swap');
+  
+@font-face {
+    font-family: "Gilmer Bold";
+    src: url("Fonts/Gilmer-Bold.ttf");
+}
+  
+@font-face {
+    font-family: "Gilmer Regular";
+    src: url("Fonts/Gilmer-Regular.otf");
+}
+
+ 
+
+
+#planet-title {
+    margin-bottom: 0.5em;
+    font-size: 4rem;
+    font-family: "Gilmer Bold";
+    font-weight: 200;
+   
+}
+
+@keyframes bounce { 0% { transform: translateY(0); } 100% { transform: translateY(-10px); } }
+
+
+
+/* MY OWN STUFF */
+
+
+
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+/*   background-color: #065729; */
+/*   background-color: white; */
+  backgroun-color: white;
+  margin:0;
+}
+
+.background{
+  display: flex;
+  flex-flow:row wrap;
+  height:max-content;
+  width:100%;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /*background-image: linear-gradient(rgba(0, 70, 67, 0.5),rgba(0, 70, 67,0.5)), url("https://watv.org/wp-content/uploads/2021/01/honey-bee-1.jpg")
+}*/
+  background-image: linear-gradient(rgba(0, 70, 67, 0.5),rgba(0, 70, 67,0.5)), url("https://www.gannett-cdn.com/-mm-/da6df33e2de11997d965f4d81915ba4d1bd4586e/c=0-248-3131-2017/local/-/media/2017/06/22/USATODAY/USATODAY/636337466517310122-GettyImages-610156450.jpg")
+}
+
+nav{
+/*   background:#f2f7b6; */
+/*   background:#f3f4b3; */
+  background-color: #e9edc9;
+  display: flex;
+  flex-flow: row wrap;
+  width:100%;
+  margin: 0;
+  position: fixed;
+  box-shadow: 1px 1px 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+li{
+  display: inline;
+  padding-right: 2em;
+}
+
+button{
+  cursor: pointer;
+  padding:1em;
+  border: none;
+  background-color: transparent;
+  color: #065729;
+  font-size: 16px;
+  font-family: 'Quicksand', Geneva, Verdana, sans-serif;
+}
+
+button:hover{
+  background-color:  #065729;
+  transform: scale(1.1);
+  perspective: (10px);
+  color: #E4D6A7;
+}
+
+html{
+  width:100%;
+  height:100%;
+  padding:0;
+  scroll-behavior: smooth;
+}
+
+ul{
+  text-align: right;
+  margin: 0;
+}
+
+.rounded{
+  background-color: green;
+  border-radius: 15px;
+  padding:20px;
+}
+
+
+.title{
+  padding-top: 190px;
+  padding-bottom: 190px;
+  padding-left: 50px;
+  text-align: left;
+  display:block;
+  font-size: 50px;
+  inline: 0px;
+  line-height: 20px;
+  color:white; 
+  font-family: "Gilmer Bold";
+}
+
+#smaller{
+  font-size: 28px;
+  padding-left: 4px;
+}
+
+#right{
+  text-align: right;
+  position: right;
+  float: right;
+}
+
+.statistic{  
+  color: #065729;
+  display: flex;
+  padding: 20px;
+  border-radius: 30px;
+  width: 200px;
+  height: 250px;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Quicksand', Geneva, Verdana, sans-serif;
+  background-color:#e9edc9;
+  font-size: 30px;
+  box-shadow: 0px 0px 10px rgba(0,150,0,0.5);
+}
+.statistic:hover {
+    box-shadow: 0px 0px 10px rgba(0,150,0,0.7);
+    transform: scale(1.05);
+    perspective: (10px);
+  }
+.Info{
+  text-align: center;
+  font-size: 65px;
+  font-family: "Gilmer Regular";
+  font-weight: 100;
+  color: #065729;
+  margin-bottom: 10px;
+  
+}
+
+.smalltree{
+  width: 150px;
+  height: 150px;
+  padding: 0px;
+}
+
+#earth{
+  width: 800px;
+  height: 800px;
+  position: right;
+  text-align: right;
+  margin:0px;
+  animation: bounce 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  } 
+@keyframes bounce { 0% { transform: translateY(0); } 100% { transform: translateY(-10px); } }
+}
+
+.boxes{
+  display:inline-block;
+  text-align: justify;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+

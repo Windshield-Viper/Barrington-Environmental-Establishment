@@ -120,24 +120,11 @@ html, body {
 
 
 
-.background5{
-  display: flex;
-  flex-flow:row wrap;
-  height:max-content;
-  width:100%;
-  justify-content: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  /*background-image: linear-gradient(rgba(0, 70, 67, 0.5),rgba(0, 70, 67,0.5)), url("https://watv.org/wp-content/uploads/2021/01/honey-bee-1.jpg")
-}*/
-  background-image: linear-gradient(rgba(0, 70, 67, 0.5),rgba(0, 70, 67,0.5)), url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/frtrees_group_nature_green-image-kybackck.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=9d5593202f5e8a9625562fb452635115")
-}
 
 nav{
 /*   background:#f2f7b6; */
 /*   background:#f3f4b3; */
-  background-color: #e9edc9;
+  background-color: #f4f4c2;
   display: flex;
   flex-flow: row wrap;
   width:100%;
@@ -157,9 +144,10 @@ button{
   padding:1em;
   border: none;
   background-color: transparent;
-  color: #065729;
+  color: #2a5903;
   font-size: 16px;
-  font-family: 'Quicksand', Geneva, Verdana, sans-serif;
+  border-radius: 5%;
+  font-family: Gilmer Regular,Roboto Slab,Geneva, Verdana, sans-serif;
 }
 
 button:hover{
@@ -248,6 +236,10 @@ ul{
 }
 .newsletterbackground{
   background-color: #5f95a0
+  
+}
+.getinvbackground{
+  background-color: #725c42
   
 }
 
@@ -563,3 +555,34 @@ th, td{
 
  */
 
+  /* Style all font awesome icons */
+
+  .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 40px;
+  height: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  position: left;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-instagram {
+  background: #55ACEE;
+  color: white;
+}

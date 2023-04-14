@@ -1,4 +1,4 @@
-# Barrington Environmental- stablishment
+# Barrington Environmental Establishment
 This is the Barrington Environmental Establishment's website.
 
 ## Who we are

@@ -186,9 +186,10 @@ ul{
   display:inline-block;
   font-size: 50px;
   inline: 0px;
-  line-height: 20px;
+
   color:white; 
   font-family: "Gilmer Bold";
+  line-height: 1;
 }
 .title2{
   padding-top: 250px;

@@ -184,10 +184,11 @@ ul{
   padding-bottom: 230px;
 /*   padding-left: 1em; */
   display:inline-block;
-  font-size: 50px;
+  font-size: 3vw;
   inline: 0px;
-  line-height: 20px;
-  color:white; 
+  line-height: 8vw;
+    inline: 0px;
+  color: white; 
   font-family: "Gilmer Bold";
 }
 .title2{
@@ -195,9 +196,9 @@ ul{
   padding-bottom: 250px;
 /*   padding-left: 1em; */
   display:inline-block;
-  font-size: 50px;
+  font-size: 5vw;
   inline: 0px;
-  line-height: 20px;
+  line-height: 8vw;
   color:white; 
   font-family: "Gilmer Bold";
 }
@@ -206,9 +207,9 @@ ul{
   padding-bottom: 200px;
 /*   padding-left: 1em; */
   display:inline-block;
-  font-size: 50px;
+  font-size: 5vw;
   inline: 0px;
-  line-height: 20px;
+  line-height: 10vw;
   color:white; 
   font-family: "Gilmer Bold";
 }
@@ -217,9 +218,9 @@ ul{
   padding-bottom: 200px;
 /*   padding-left: 1em; */
   display:inline-block;
-  font-size: 50px;
+  font-size: 5vw;
   inline: 0px;
-  line-height: 20px;
+  line-height: 10vw;
   color:white; 
   font-family: "Gilmer Bold";
 }
@@ -227,9 +228,9 @@ ul{
   padding-top: 190px;
   padding-bottom: 115px;
   display:inline-block;
-  font-size: 50px;
+  font-size: 5vw;
   inline: 0px;
-  line-height: 20px;
+  line-height: 10vw;
   color:white; 
   text-align: center;
 }
@@ -296,6 +297,8 @@ ul{
 #smaller{
   font-size: 28px;
   padding-left: 4px;
+  flex-flow: row wrap;
+  font-size: 3vw
 }
 
 #right{

@@ -128,21 +128,28 @@ html, body {
 
 
 nav{
-/*   background:#f2f7b6; */
-/*   background:#f3f4b3; */
-  background-color: #f4f4c2;
-  display: flex;
-  flex-flow: row wrap;
-  width:100%;
-  margin: 0;
+  background-color: rgb(244, 244, 194);
+  background-color: rgb(251, 251, 218, 0.8);
+
+
+  width:100vw;
+
   position: fixed;
   box-shadow: 1px 1px 1px 3px rgba(0, 0, 0, 0.08);
   z-index: 100;
+  text-align: center;
+  float: none;
+  display: flexbox;
+  vertical-align: top;  
+  horizontal-align: left;
 }
+
+
+
 
 li{
   display: inline;
-  padding-right: 2em;
+  padding-right: 3vw;
 }
 
 button{
@@ -150,7 +157,7 @@ button{
   padding:1em;
   border: none;
   background-color: transparent;
-  color: #2a5903;
+  color: #204601;
   font-size: 16px;
   border-radius: 5%;
   font-family: Gilmer Regular,Roboto Slab,Geneva, Verdana, sans-serif;
@@ -172,7 +179,7 @@ html{
 }
 
 ul{
-  text-align: right;
+  text-align: center;
   margin: 0;
 }
 

@@ -354,13 +354,13 @@ ul{
 /*   font-family: 'Oswald', sans-serif; */
   font-family:'Montserrat', Geneva, Verdana, sans-serif;
   text-align: left;
-  font-size: 1.7em;
+  font-size: 1vw;
   background-color: #719c40;
   color: white;
   padding-top: 1em;
   padding-bottom: 1em;
   padding-right: 1em;
-  padding-left: 3em;
+  padding-left: 1em;
   margin: 0px;
   display: inline-block;
 }
@@ -437,7 +437,7 @@ ul{
 .infot{
   font-family:'Montserrat', Geneva, Verdana, sans-serif;
   color: white;
-  padding-left: 6.5em;
+
   
 }
 
